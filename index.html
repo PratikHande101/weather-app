@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App V2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <form>
-        <input type="text" placeholder="Search city...">
-    </form>
+    <div class="city-form">
+        <form>
+            <input type="text" placeholder="Search city...">
+        </form>
+        <ul>
+            <li>Mumbai <span>IN</span></li>
+            <li>Mumbai <span>IN</span></li>
+            <li>Mumbai <span>IN</span></li>
+            <li>Mumbai <span>IN</span></li>
+            <li>Mumbai <span>IN</span></li>
+        </ul>
+    </div>
+
+    <div class="weather-data" style="display: none;">
+        <img src="https://openweathermap.org/img/wn/50n@4x.png" alt="" id="icon">
+        <h1 id="degrees">27<span>&#8451;</span></h1>
+        <h2 id="city">Mumbai</h2>
+        <div class="info">
+            <div>
+                <h3>Wind</h3>
+                <div id="windValue" class="value">2<span>km/h</span></div>
+            </div>
+            <div>
+                <h3>Feels Like</h3>
+                <div id="windValue" class="value">2 <span>&#8451;</span></div>
+            </div>
+            <div>
+                <h3>Humidity</h3>
+                <div id="windValue" class="value">2 <span>%</span></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
