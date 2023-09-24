@@ -54,7 +54,7 @@ input[type="text"]:focus {
 
 /* SECOND DIV */
 
-.weather-data {
+#weather-data {
     display: flex;
     flex-direction: column;
     align-items: center;
